@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#0e1424" />
+  <meta name="description" content="Privacy Policy for Volume Styles & Equaliser, an Android volume-panel customisation app by Bhagwati Studio." />
+  <title>Privacy Policy · Volume Styles &amp; Equaliser</title>
+    <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b1020;
+      --surface: #121a2b;
+      --surface-alt: #182238;
+      --line: #29344a;
+      --ink: #f4f7ff;
+      --muted: #a4b0c5;
+      --accent: #7db7ff;
+      --accent-2: #74e4d1;
+      --radius: 18px;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 28px; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.72; -webkit-font-smoothing: antialiased; }
+    a { color: var(--accent); text-underline-offset: 3px; }
+    a:hover { color: #b7d7ff; }
+    a:focus-visible { outline: 2px solid var(--accent-2); outline-offset: 4px; border-radius: 3px; }
+    .shell { max-width: 1130px; margin: 0 auto; padding: 0 28px; }
+    .topbar { border-bottom: 1px solid var(--line); background: #0e1526; }
+    .topbar .shell { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .brand { display: inline-flex; align-items: center; gap: 13px; font-size: 14px; font-weight: 720; color: #fff; letter-spacing: -.02em; text-decoration: none; }
+    .mark { display: grid; place-items: center; width: 37px; height: 37px; border: 1px solid #45709d; border-radius: 11px; background: #1e3151; color: #fff; }
+    .mark svg { display: block; width: 23px; height: 23px; }
+    .brand em { display: block; margin-top: -4px; font-size: 11px; font-style: normal; font-weight: 480; color: var(--muted); letter-spacing: .03em; }
+    .toplink { color: var(--muted); font-size: 13px; text-decoration: none; font-weight: 600; }
+    .toplink:hover { color: #fff; }
+    .hero { padding: 67px 0 43px; border-bottom: 1px solid var(--line); }
+    .eyebrow { display: inline-flex; gap: 9px; align-items: center; font-size: 11px; font-weight: 750; letter-spacing: .15em; text-transform: uppercase; color: var(--accent-2); }
+    .eyebrow::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+    h1 { max-width: 760px; margin: 13px 0 15px; font-size: clamp(39px, 5.3vw, 63px); line-height: 1.12; letter-spacing: -.052em; font-weight: 780; }
+    .lead { max-width: 700px; margin: 0; font-size: 17px; line-height: 1.8; color: var(--muted); }
+    .meta { display: flex; flex-wrap: wrap; gap: 8px 21px; margin-top: 28px; font-size: 13px; color: var(--muted); }
+    .meta b { color: var(--ink); font-weight: 600; }
+    .overview { display: grid; grid-template-columns: repeat(3, 1fr); gap: 13px; margin-top: 30px; }
+    .overview article { min-height: 145px; padding: 19px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+    .overview svg { width: 22px; height: 22px; stroke: var(--accent-2); stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .overview h2 { font-size: 14px; margin: 12px 0 5px; font-weight: 700; }
+    .overview p { margin: 0; color: var(--muted); font-size: 12.5px; line-height: 1.65; }
+    .main { display: grid; grid-template-columns: 222px minmax(0, 1fr); gap: 60px; padding-top: 44px; padding-bottom: 82px; }
+    .side { position: relative; }
+    .toc { position: sticky; top: 30px; display: grid; gap: 3px; }
+    .toc strong { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .16em; padding: 0 11px 12px; }
+    .toc a { padding: 7px 11px; font-size: 13px; line-height: 1.4; color: var(--muted); text-decoration: none; border-radius: 8px; }
+    .toc a:hover { color: var(--ink); background: var(--surface-alt); }
+    .content { max-width: 735px; min-width: 0; }
+    .content section { padding-bottom: 28px; margin-bottom: 30px; border-bottom: 1px solid var(--line); scroll-margin-top: 24px; }
+    .content section:last-of-type { border: 0; margin: 0; padding: 0; }
+    .content h2 { font-size: 23px; line-height: 1.3; margin: 0 0 13px; letter-spacing: -.025em; }
+    .content h3 { font-size: 16px; margin: 22px 0 7px; letter-spacing: -.01em; }
+    .content p, .content li, .content td, .content th { font-size: 14px; line-height: 1.85; }
+    .content p { margin: 0 0 14px; color: #c6cfe0; }
+    .content ul { padding-left: 19px; color: #c6cfe0; margin: 7px 0 16px; }
+    .content li { padding-left: 4px; margin-bottom: 8px; }
+    .content strong { color: var(--ink); font-weight: 690; }
+    .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; margin: 15px 0 19px; }
+    table { width: 100%; border-collapse: collapse; text-align: left; }
+    th { padding: 12px 14px; color: #eaf2ff; background: #1d2a40; font-size: 12px !important; font-weight: 720; }
+    td { padding: 13px 14px; color: #c8d1e1; vertical-align: top; border-top: 1px solid var(--line); }
+    td:first-child { width: 34%; color: #fff; font-weight: 630; }
+    .note { margin: 20px 0 23px; border-left: 3px solid #5ea6f6; border-radius: 0 9px 9px 0; background: #18253a; padding: 15px 18px; }
+    .note p { margin: 0; font-size: 13px; }
+    .contact { margin-top: 17px; padding: 21px; border: 1px solid #395273; background: #16263d; border-radius: var(--radius); }
+    .contact p { margin-bottom: 8px; }
+    .email { font-size: 15px; overflow-wrap: anywhere; font-weight: 720; color: var(--accent-2); }
+    .footer { border-top: 1px solid var(--line); background: #0e1526; }
+    .footer .shell { min-height: 83px; display: flex; align-items: center; justify-content: space-between; gap: 15px; color: var(--muted); font-size: 12px; }
+    .footer b { color: #e1e9fa; }
+    @media (max-width: 800px) {
+      .shell { padding: 0 20px; }
+      .hero { padding-top: 46px; }
+      .main { grid-template-columns: 1fr; gap: 22px; padding-top: 24px; }
+      .toc { position: static; display: flex; flex-wrap: wrap; gap: 4px; }
+      .toc strong { flex: 0 0 100%; padding: 0 0 6px; }
+      .toc a { padding: 7px 9px; border: 1px solid var(--line); }
+      .content section { margin-bottom: 26px; }
+    }
+    @media (max-width: 600px) {
+      .topbar .shell { min-height: 69px; }
+      .toplink { font-size: 11px; }
+      .overview { grid-template-columns: 1fr; gap: 9px; }
+      .overview article { display: grid; grid-template-columns: 30px 1fr; gap: 0 9px; min-height: unset; padding: 16px; }
+      .overview article svg { grid-row: 1 / 3; align-self: center; }
+      .overview h2 { margin: 0 0 2px; }
+      .overview p { grid-column: 2; }
+      .lead { font-size: 15px; }
+      .content h2 { font-size: 21px; }
+      .footer .shell { flex-wrap: wrap; padding-top: 18px; padding-bottom: 18px; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    @media print {
+      :root { color-scheme: light; --bg: #fff; --surface: #fff; --surface-alt: #fff; --line: #ddd; --ink: #111; --muted: #333; --accent: #174e85; --accent-2: #174e85; }
+      body { color: #111; }
+      .topbar, .side, .overview { display: none; }
+      .hero { padding: 20px 0; }
+      .main { display: block; padding: 20px 0; }
+      .content { max-width: none; }
+      .content p, .content li, .content td { color: #222; }
+      .contact, .note { background: #fff; }
+      .footer { background: #fff; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell">
+      <a class="brand" href="#top" aria-label="Volume Styles and Equaliser, back to top">
+        <span class="mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.7"><rect x="4" y="3" width="5" height="18" rx="2.5"/><path d="M6.5 9v5" stroke="#74e4d1" stroke-width="2.6"/><rect x="15" y="3" width="5" height="18" rx="2.5"/><path d="M17.5 7v9" stroke="#7db7ff" stroke-width="2.6"/><path d="m10.8 13 2.5-2.5"/></svg>
+        </span>
+        <span>Volume Styles &amp; Equaliser <em>by Bhagwati Studio</em></span>
+      </a>
+      <a class="toplink" href="#contact">Privacy contact ↗</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <div class="hero">
+      <div class="shell">
+        <span class="eyebrow">Transparency and trust</span>
+        <h1>Privacy Policy</h1>
+        <p class="lead">Your volume controls should feel personal. Your privacy should stay yours. Here is how Volume Styles &amp; Equaliser handles device permissions, settings, advertising, and purchases.</p>
+        <div class="meta"><span><b>Developer:</b> Bhagwati Studio</span><span><b>Effective date:</b> 3 November 2026</span><span><b>Platform:</b> Android</span></div>
+        <div class="overview" aria-label="Privacy overview">
+          <article>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 4 6v6c0 5 3.6 8 8 9 4.4-1 8-4 8-9V6l-8-3Z"/><path d="m8.5 12 2.5 2.5 4.5-5"/></svg>
+            <h2>Designed for on-device control</h2>
+            <p>Volume and appearance controls are intended to operate on your device.</p>
+          </article>
+          <article>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>
+            <h2>Permissions with a purpose</h2>
+            <p>Special permissions are used to show and customise volume panels.</p>
+          </article>
+          <article>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v4"/><rect x="3" y="9" width="18" height="11" rx="2"/><path d="M15 14h3"/></svg>
+            <h2>Third-party services</h2>
+            <p>Ads and purchases may involve Google services as described below.</p>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="main shell">
+      <aside class="side" aria-label="Policy navigation">
+        <nav class="toc">
+          <strong>On this page</strong>
+          <a href="#about">1. About this policy</a>
+          <a href="#information">2. Data we process</a>
+          <a href="#permissions">3. Device permissions</a>
+          <a href="#services">4. Ads and third parties</a>
+          <a href="#use">5. Data use and sharing</a>
+          <a href="#retention">6. Retention and deletion</a>
+          <a href="#choices">7. Your choices</a>
+          <a href="#security">8. Security</a>
+          <a href="#children">9. Children's privacy</a>
+          <a href="#changes">10. Policy updates</a>
+          <a href="#contact">11. Contact</a>
+        </nav>
+      </aside>
+
+      <article class="content">
+        <section id="about">
+          <h2>1. About this policy</h2>
+          <p>This Privacy Policy explains how <strong>Volume Styles &amp; Equaliser</strong> (the “App”), developed by <strong>Bhagwati Studio</strong> (“we”, “us”, or “our”), accesses, processes, stores, and shares information when you use the App.</p>
+          <p>The App is designed to let you personalise Android volume panels, preview volume-control styles, change appearance settings, and adjust supported audio controls. Some features may vary by Android version and device manufacturer.</p>
+        </section>
+
+        <section id="information">
+          <h2>2. Information we process</h2>
+          <h3>Volume and device settings</h3>
+          <p>The App may access volume levels, sound-mode information, audio-output state, and other device settings required to display and operate its controls. These values are used to perform the requested functions on your device.</p>
+          <h3>Preferences saved on your device</h3>
+          <p>Settings such as selected volume-panel styles, themes, colours, position, favourites, animation preferences, and related customisation options may be stored locally so that your choices persist.</p>
+          <h3>Advertising and technical information</h3>
+          <p>If the App displays ads using Google AdMob, Google's advertising SDK may automatically collect or share certain information, including your IP address (which may indicate an approximate location), app interactions, diagnostic and performance data, and device identifiers such as the Android advertising ID, where permitted and available. This information may support ad delivery, measurement, analytics, and fraud prevention.</p>
+          <h3>Purchases and support requests</h3>
+          <p>If you purchase premium features or subscriptions, Google Play processes payment information. The App may receive purchase status and entitlement information to activate your benefits. If you contact us for support, we receive the information you choose to include in your message, such as your email address and problem description.</p>
+          <div class="note"><p><strong>Audio privacy:</strong> Customising a volume control does not itself require recording audio or conversations. The App is intended to use Android's audio-control interfaces rather than upload audio recordings to Bhagwati Studio servers.</p></div>
+        </section>
+
+        <section id="permissions">
+          <h2>3. Device permissions and access</h2>
+          <p>Depending on the features available in your installed version, the App may request the following Android permissions or special access. A permission listed here does not mean that it is requested in every version.</p>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th scope="col">Access</th><th scope="col">Why it may be needed</th></tr></thead>
+              <tbody>
+                <tr><td>Display over other apps</td><td>To show a customised volume panel above other apps when you adjust sound.</td></tr>
+                <tr><td>Accessibility service</td><td>Where implemented and explicitly enabled by you, to detect supported volume-control interactions and show the selected custom panel. The service may receive Android accessibility events. Its use must be limited to the functions explained in the App's separate accessibility disclosure.</td></tr>
+                <tr><td>Modify audio settings</td><td>To read or adjust supported volume levels and sound settings when you interact with the controls.</td></tr>
+                <tr><td>Notifications or foreground service</td><td>To keep an enabled volume-control feature operating where Android requires an ongoing service or notification.</td></tr>
+                <tr><td>Internet access</td><td>For enabled advertising, purchase verification, and any other online functionality expressly provided in the App.</td></tr>
+                <tr><td>Start on boot</td><td>To restore the selected volume-control experience after a device restart, if you enable that feature.</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>You can disable permissions in Android Settings. Some functions may stop working if their required access is turned off.</p>
+          <p><strong>Accessibility disclosure:</strong> If the App uses the Android AccessibilityService API, it will provide a separate, prominent explanation and request your affirmative consent before enabling the feature. This Privacy Policy is not a substitute for that in-app disclosure.</p>
+        </section>
+
+        <section id="services">
+          <h2>4. Advertising and third-party services</h2>
+          <h3>Google AdMob</h3>
+          <p>The App may display advertisements provided through Google AdMob. Google and its advertising partners may process information as described above, subject to your choices and applicable law. Where required, the App should provide a consent or privacy-options interface for advertising.</p>
+          <p>Learn more in <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google's advertising information</a>.</p>
+          <h3>Google Play Billing</h3>
+          <p>If premium purchases or subscriptions are offered, payments are handled by Google Play. We do not receive your full payment-card details from Google Play. Purchase and subscription status may be processed to provide purchased features.</p>
+          <p>For details, see <a href="https://play.google.com/about/play-terms/" target="_blank" rel="noopener noreferrer">Google Play's Terms of Service</a> and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>.</p>
+          <p>Third-party providers are responsible for their own processing practices under their applicable policies. If additional SDKs or service providers are added, we will update this policy as needed.</p>
+        </section>
+
+        <section id="use">
+          <h2>5. How information is used and shared</h2>
+          <p>Information may be processed for these purposes:</p>
+          <ul>
+            <li>Operating and personalising volume controls and other features you select.</li>
+            <li>Remembering local app preferences and enabling purchased functionality.</li>
+            <li>Providing ads, measuring performance, preventing fraud, and complying with legal obligations where applicable.</li>
+            <li>Responding to support requests and maintaining the App's reliability and security.</li>
+          </ul>
+          <p>We do not sell your personal information directly. Third-party advertising services may collect and use information independently as described in their privacy policies, and certain advertising disclosures or choices may be required under applicable privacy laws.</p>
+          <p>We may disclose information when legally required, to protect the App or its users, or to service providers acting on our behalf, only to the extent relevant to their functions.</p>
+        </section>
+
+        <section id="retention">
+          <h2>6. Data retention and deletion</h2>
+          <p>Preferences stored locally generally remain on your device until you reset the App, clear its data, or uninstall it. Uninstalling the App does not necessarily remove information separately held by Google, advertising providers, or your payment provider.</p>
+          <p>Support correspondence may be retained for as long as reasonably necessary to resolve your request and meet legitimate legal or operational needs. Advertising and purchase-related records are subject to the relevant provider's retention policies.</p>
+          <p>To request access to or deletion of information that Bhagwati Studio holds in connection with a support request, contact us using the details below. We will respond in accordance with applicable law.</p>
+        </section>
+
+        <section id="choices">
+          <h2>7. Your privacy choices</h2>
+          <ul>
+            <li><strong>App customisation:</strong> Change or reset preferences inside the App, where available.</li>
+            <li><strong>Special permissions:</strong> Revoke overlay, accessibility, and notification permissions in Android Settings.</li>
+            <li><strong>Advertising preferences:</strong> Use any in-app privacy-options control provided, and manage available ad-privacy settings on your Android device.</li>
+            <li><strong>Subscriptions:</strong> Manage or cancel applicable subscriptions in Google Play.</li>
+            <li><strong>Local data:</strong> Clear app storage or uninstall the App to remove locally stored preferences.</li>
+          </ul>
+          <p>Depending on your location, you may have additional privacy rights, including requesting access, correction, or deletion of personal information. Contact us to exercise applicable rights concerning information under our control.</p>
+        </section>
+
+        <section id="security">
+          <h2>8. Data security</h2>
+          <p>We aim to minimise data access and use Android's platform protections where possible. Services such as Google AdMob and Google Play apply their own safeguards to information they process. No method of electronic transmission or storage can be guaranteed completely secure.</p>
+        </section>
+
+        <section id="children">
+          <h2>9. Children's privacy</h2>
+          <p>The App is not specifically directed at children under 13, or the minimum age required by applicable local law. We do not knowingly seek to collect children's personal information directly. If you believe a child has provided personal information to us, please contact us so we can review the request and take appropriate action.</p>
+        </section>
+
+        <section id="changes">
+          <h2>10. Changes to this policy</h2>
+          <p>We may update this Privacy Policy when features, permissions, service providers, or legal requirements change. The revised policy will be published on this page with an updated effective date. Material changes may also be communicated through the App where appropriate.</p>
+        </section>
+
+        <section id="contact">
+          <h2>11. Contact us</h2>
+          <p>For privacy questions, requests, or concerns relating to Volume Styles &amp; Equaliser, contact the developer:</p>
+          <div class="contact">
+            <p><strong>Bhagwati Studio</strong></p>
+            <p>Developer and privacy contact</p>
+            <div class="email">bhagwati.01.studio@gmail.com</div>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="shell"><span><b>Volume Styles &amp; Equaliser</b> · Bhagwati Studio</span><span>Privacy Policy · Effective 3 November 2026</span></div>
+  </footer>
+</body>
+</html>
